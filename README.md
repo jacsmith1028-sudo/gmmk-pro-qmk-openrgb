@@ -77,20 +77,6 @@ Do not unplug the keyboard during writing. A successful reset should enumerate a
 
 Restart or rescan OpenRGB. It should report `GMMK Pro ANSI`, 98 LEDs, a keyboard zone, and an underglow zone.
 
-### 6. Optional custom Cyberstorm effect
-
-```powershell
-.\scripts\start-cyberstorm.ps1
-```
-
-This runs a custom per-key cyan/magenta plasma animation through the OpenRGB SDK. A SteelSeries Rival 310 is synchronized automatically when present.
-
-Stop it with:
-
-```powershell
-.\scripts\stop-cyberstorm.ps1
-```
-
 ## Recovery preparation
 
 Download—do not flash—the exact official Glorious recovery package before experimenting:
