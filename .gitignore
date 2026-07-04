@@ -1,0 +1,11 @@
+artifacts/
+build/
+recovery/
+.runtime/
+*.log
+*.zip
+*.bin
+*.elf
+*.hex
+*.backup-*
+__pycache__/
